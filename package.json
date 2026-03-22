@@ -1,15 +1,23 @@
 {
   "name": "devtinderbe",
   "version": "1.0.0",
-  "description": "Tinder for devs",
+  "description": "Creating dev tinder application",
+  "homepage": "https://github.com/Tanmoy112/devTinderBE#readme",
+  "bugs": {
+    "url": "https://github.com/Tanmoy112/devTinderBE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanmoy112/devTinderBE.git"
+  },
+  "license": "ISC",
+  "author": "Tanmoy sen",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon src/app.js"
+  "dev":"nodemon src/app.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1",
-    "nodemon": "^3.1.14"
+    "express": "^5.2.1"
   }
 }
